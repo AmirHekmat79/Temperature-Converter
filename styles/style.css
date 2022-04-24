@@ -1,0 +1,25 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+
+}
+
+.messageContent{
+    display: none;
+}
+@media(min-width:507px){
+
+    .converterInput{
+        width:500px;
+
+    }
+}
+@media(max-width:507px){
+
+    .converterInput{
+        width:200px;
+
+    }
+}
